@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Madanmohini Pritesh Parikh - Web Developer & Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</head>
+
+<body class="text-gray-900 font-sans" style="background-color: #e6f2fe;">
+
+    <!-- Navbar Section -->
+    <nav class="p-6 rounded-full shadow-lg bg-bg-[#e6f2fe] rounded-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Your Vision, My Code</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-gray-300">About Me</a></li>
+                <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section (White Background) -->
+    <section id="hero" class="bg-white h-screen text-gray-900 p-4">
+        <div class="flex items-center justify-between h-full text-center md:text-left">
+            <!-- Left Side: Text Content -->
+            <div class="px-6 w-full md:w-1/2">
+              <h2 class="text-5xl font-semibold">Hello, I'm Madanmohini Pritesh Parikh</h2>
+              <p class="text-lg mt-4">Passionate Developer & Designer, crafting innovative, scalable solutions with expertise in modern technologies</p>
+              <a href="#contact" class="mt-6 inline-block bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-500">Get in Touch</a>
+            </div>
+            <!-- Right Side: Image -->
+            <div class="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
+              <img src="female-software-developer-flat-concept-illustration-vector.jpg" alt="image" class="rounded-lg shadow-lg w-full max-w-md">
+            </div>
+          </div>
+    </section>
+
+    <!-- About Me Section (Light Blue Background) -->
+    <section id="about" class="py-16 px-6 bg-[#e6f2fe] text-gray-900">
+        <div class="max-w-3xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-dark-blue">About Me</h3>
+            <div class="mt-6 flex justify-center">
+                <!-- Avatar of Female -->
+                <img src="images.jpg"
+                    alt="Avatar" class="rounded-full w-32 h-32 border-4 border-white shadow-lg">
+            </div>
+            <p class="mt-6 text-lg text-gray-800">I am a passionate web developer with expertise in front-end and
+                back-end
+                technologies. I have a strong foundation in computer science and a deep interest in building intuitive,
+                user-friendly websites and applications. I aim to create the best experiences for users with modern
+                design
+                techniques and cutting-edge technology.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section (Light Blue Background) -->
+    <section id="skills" class="py-16 px-6 bg-white text-gray-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-dark-blue">Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <!-- Skill 1: HTML5 & CSS3 -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download.png" alt="HTML5 & CSS3" class="w-20 h-20 mx-auto">
+                    <i class="fas fa-html5 text-4xl text-orange-500"></i>
+                    <h4 class="text-xl font-semibold mt-4">HTML5 & CSS3</h4>
+                    <p class="mt-2 text-gray-600">Proficient in building websites using HTML5 and CSS3, ensuring
+                        responsive and
+                        visually appealing designs.</p>
+                    <div class="mt-4">
+                        <div class="w-full bg-gray-200 rounded-full">
+                            <div class="bg-orange-500 h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">90% </p>
+                    </div>
+                </div>
+                <!-- Skill 2: JavaScript -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (1).png" alt="JavaScript" class="w-20 h-20 mx-auto">
+                    <i class="fas fa-code text-4xl text-yellow-500"></i>
+                    <h4 class="text-xl font-semibold mt-4">JavaScript</h4>
+                    <p class="mt-2 text-gray-600">Experienced with JavaScript frameworks such as React and Vue, along
+                        with
+                        vanilla JavaScript for dynamic web functionality.</p>
+                    <div class="mt-4">
+                        <div class="w-full bg-gray-200 rounded-full">
+                            <div class="bg-yellow-500 h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">85% </p>
+                    </div>
+                </div>
+                <!-- Skill 3: C & C++ -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (2).png" alt="C & C++" class="w-20 h-20 mx-auto">
+                    <i class="fas fa-cogs text-4xl text-blue-500"></i>
+                    <h4 class="text-xl font-semibold mt-4">C & C++</h4>
+                    <p class="mt-2 text-gray-600">Solid understanding of C and C++ for developing efficient and
+                        optimized applications.</p>
+                    <div class="mt-4">
+                        <div class="w-full bg-gray-200 rounded-full">
+                            <div class="bg-blue-500 h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">85% </p>
+                    </div>
+                </div>
+                <!-- Skill 4: Python -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (3).png"  alt="Python" class="w-20 h-20 mx-auto">
+                    <i class="fab fa-python text-4xl text-blue-400"></i>
+                    <h4 class="text-xl font-semibold mt-4">Python</h4>
+                    <p class="mt-2 text-gray-600">Proficient in Python, with experience in web development using Django
+                        and automation scripting.</p>
+                    <div class="mt-4">
+                        <div class="w-full bg-gray-200 rounded-full">
+                            <div class="bg-blue-400 h-2 rounded-full" style="width: 80%"></div>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">95% </p>
+                    </div>
+                </div>
+                <!-- Skill 5: MS Office -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (4).png" alt="MS Office " class="w-20 h-20 mx-auto">
+                    <i class="fas fa-briefcase text-4xl text-purple-500"></i>
+                    <h4 class="text-xl font-semibold mt-4">MS Office</h4>
+                    <p class="mt-2 text-gray-600">Well-versed in MS Office tools such as Word, Excel, and PowerPoint for
+                        data processing
+                        and documentation.</p>
+                    <div class="mt-4">
+                        <div class="w-full bg-gray-200 rounded-full">
+                            <div class="bg-purple-500 h-2 rounded-full" style="width: 95%"></div>
+                        </div>
+                        <p class="text-gray-600 text-sm mt-1">95% </p>
+                    </div>
+                </div>
+                <!-- Skill 6: MySQL -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (5).png"  alt="MySQL" class="w-20 h-20 mx-auto">
+                    <h4 class="text-xl font-semibold mt-4">MySQL</h4>
+                    <p class="mt-2 text-gray-600">Experienced with MySQL for managing and querying relational databases.
+                        Familiar with optimization techniques and complex queries.</p>
+                    <div class="mt-4 h-2 bg-gray-300 rounded-full">
+                        <div class="h-2 bg-red-500 rounded-full" style="width: 70%"></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-1">95% </p>
+                </div>
+                <!-- Skill 7: Java -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (6).png" alt="Java" class="w-20 h-20 mx-auto">
+                    <h4 class="text-xl font-semibold mt-4">Java</h4>
+                    <p class="mt-2 text-gray-600">Proficient in Java for backend development, with experience in
+                        building robust, scalable applications using frameworks like Spring.</p>
+                    <div class="mt-4 h-2 bg-gray-300 rounded-full">
+                        <div class="h-2 bg-orange-600 rounded-full" style="width: 80%"></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-1">85% </p>
+                </div>
+                <!-- Skill 8: Django -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (7).png" alt="Django" class="w-20 h-20 mx-auto">
+                    <h4 class="text-xl font-semibold mt-4">Django</h4>
+                    <p class="mt-2 text-gray-600">Skilled in building web applications using Django, focusing on clean
+                        code, security, and scalability for large-scale projects.</p>
+                    <div class="mt-4 h-2 bg-gray-300 rounded-full">
+                        <div class="h-2 bg-green-600 rounded-full" style="width: 85%"></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-1">75% </p>
+                </div>
+                <!-- Skill 9: PHP -->
+                <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300">
+                    <img src="download (8).png" class="w-20 h-20 mx-auto">
+                    <h4 class="text-xl font-semibold mt-4">PHP</h4>
+                    <p class="mt-2 text-gray-600">Proficient in PHP for server-side scripting, building dynamic
+                        websites, and integrating databases like MySQL with PHP for full-stack development.</p>
+                    <div class="mt-4 h-2 bg-gray-300 rounded-full">
+                        <div class="h-2 bg-purple-600 rounded-full" style="width: 80%"></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mt-1">70% </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (White Background) -->
+    <section id="projects" class="py-16 px-6 bg-[#e6f2fe] text-gray-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-dark-blue">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <!-- Project 1: E-Voting -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images (1).jpg" alt="E-Voting System" class="rounded-lg mb-4">
+                    <h4 class="text-xl font-semibold">E-Voting System</h4>
+                    <p class="mt-2 text-gray-600">A secure and efficient electronic voting system that allows users to
+                        vote online,
+                        ensuring transparency and ease of use.</p>
+                </div>
+                <!-- Project 2: Women's Safety -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images (2).jpg" alt="Women's Safety App" class="rounded-lg mb-4">
+                    <h4 class="text-xl font-semibold">Women's Safety App</h4>
+                    <p class="mt-2 text-gray-600">A mobile app designed to help women feel safe, with features like
+                        emergency alerts,
+                        location tracking, and SOS messages.</p>
+                </div>
+                <!-- Project 3: Contact Management System -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images (3).jpg" alt="Contact Management System" class="rounded-lg mb-4">
+                    <h4 class="text-xl font-semibold">Contact Management System</h4>
+                    <p class="mt-2 text-gray-600">A system for managing contacts, storing important details, and making
+                        it easier to
+                        search for and update contact information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Light Blue Background) -->
+    <section id="contact" class="py-16 px-6 bg-white text-gray-900">
+        <div class="bg-[#e6f2fe] p-6 rounded-lg shadow-lg max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-dark-blue">Contact Me</h3>
+            <p class="mt-4 text-lg">Feel free to reach out if you want to collaborate, discuss projects, or simply have
+                a
+                conversation!</p>
+            <form class="mt-8 space-y-4">
+                <input type="text" placeholder="Your Name"
+                    class="w-full p-4 bg-white text-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    required>
+                <input type="email" placeholder="Your Email"
+                    class="w-full p-4 bg-white text-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    required>
+                <textarea placeholder="Your Message"
+                    class="w-full p-4 bg-white text-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    required></textarea>
+                <button type="submit" class="w-32 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-500">Send
+                    Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Madanmohini Pritesh Parikh. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
